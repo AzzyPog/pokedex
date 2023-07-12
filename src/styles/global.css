@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Removendo a estilização de input tipo numero dos navegadores */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #313131;
+    color: #fff;
+    box-shadow: 0px 15px 0px 0px #616161;
+}
+
+header h1 {
+    margin-left: 15px;
+}
+
+body {
+    background-color: #bebebe;
+}
+
+main {
+    border-radius: 5px;
+    display: flex;
+    margin:50px;
+    background-color: #fff;
+    height: 100vh;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.48);
+}

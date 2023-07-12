@@ -1,0 +1,47 @@
+.randomize-container {
+    margin: 30px 0 0 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.random-input {
+    width: 60px;
+    height: 25px;
+    padding-left: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 2px solid #a5a5a5
+}
+
+.random-input:focus {
+    animation: glowing 1.5s infinite;
+    outline-color: #000000;
+}
+
+.random-button {
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 2px 6px 4px 4px;
+    cursor: pointer;
+    border: none;
+    transition: 0.4s all;
+    color: #fff;
+    background-color: #8a8aff;
+}
+
+.random-button:hover {
+    background-color: #222a77;
+}
+
+@keyframes glowing {
+    0% {
+      outline-color: #000000;
+    }
+    50% {
+      outline-color: #0000000e;
+    }
+    100% {
+      outline-color: #000000;
+    }
+  }
