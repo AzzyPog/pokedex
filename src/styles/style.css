@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     height: 40px;
+    border: none;
 }
 
 .random-input {
@@ -33,6 +34,34 @@
 .random-button:hover {
     background-color: #222a77;
 }
+
+.pokecard {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    background-color: rgba(150, 150, 150, 0.349); /* Cor de fundo com transparência */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    transition: 0.2s all;
+    box-shadow: 2px 2px 10px 1px rgba(109, 107, 107, 0.48);
+}
+
+.pokecard:hover {
+    transform: scale(1.1);
+}
+
+.pokecard h2 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.pokecard img {
+    width: 100%;
+}
+
+/* keyframes and mediascreen */
 
 @keyframes glowing {
     0% {
