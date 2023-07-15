@@ -20,7 +20,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 ## 💻 Como acessar o projeto
 Para rodar o projeto localmente no seu computador, as etapas a seguir devem ser seguidas:
 
-1. O projeto se encontra hospedado na internet e você pode acessá-lo por [aqui](pokedex-azzypog.vercel.app) ou pelo *link* fixado no topo deste repositório.
+1. O projeto se encontra hospedado na internet e você pode acessá-lo por <a href="pokedex-azzypog.vercel.app">aqui</a> ou pelo *link* fixado no topo deste repositório.
 
 &nbsp;
 ## 🖊️ Licença
