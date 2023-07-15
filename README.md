@@ -7,6 +7,8 @@
  <a href="#%EF%B8%8F-licença">Licença</a>
 </p>
 
+<div align="center"> <img width="800" src="./.github/example_img.png"> </div>
+
 ---
 &nbsp;
 ## 🚀 Tecnologias utilizadas
