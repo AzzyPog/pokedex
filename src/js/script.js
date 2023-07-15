@@ -2,6 +2,10 @@ const pokecardHolder = document.querySelector("main div:first-of-type");
 const randomBtn = document.querySelector("#btn");
 let loadingDefaultPokemons = true; // Variável de controle para indicar se o carregamento padrão está ativo
 
+document.querySelector("header h1").addEventListener('click', () => {
+    location.reload()
+})
+
 //botão de randomizar os pokemons
 randomBtn.addEventListener('click', () => {
     pokecardHolder.innerHTML = ""
